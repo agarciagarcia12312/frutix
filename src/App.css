@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.barTittle{
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.relative{
+  /* position: absolute; */
+  width:100%;
+}
+/* ======== individual functions ========= */
+.center{
+  text-align: center;
+}
+.white{
+  color:white;
+}
+.largeText{
+  /* font-size: 4em; */
+}
+
+/*================== main page ==============*/
+#mainImage{
+  /* height:350px; */
+  margin:10px 0 10px 0;
+  width:100%;
+  text-align: center;
+  font-size: 5.4em;
+  padding:0%;
+  background: url('./images/fruits2.jpg');
+  /* background-r30eat: no-repeat; */
+  background-size: 100% ;
+}
+
+.capitalize{
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+.menuRow{
+  margin-top: 20px;
+}
+.menuName{
+  position: relative;
+  top:-3px;
+  font-size: 1.6em;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.hideOnMobile{
+  display: none;
+}
+.hideOnDesktop{
+  display: block;
+}
+@media only screen and (min-width: 550px) {
+  .hideOnMobile{
+    display: contents;
+  }
+  #mainImage{
+    padding: 10% 0 0 10%;
+    height: 250px;
+    font-size: 4.2em;
+  }
+  .hideOnDesktop{
+    display: none;
+  }
+  .col-sm-4{
+    width:31%;
+    margin:1%;
+    float: left;
+  }
+}
